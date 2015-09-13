@@ -1,0 +1,19 @@
+size(500,500);
+background(255);
+
+int x=0;
+while(x<475) {
+ int y=0;
+  while(y<475) {
+  float r =random(210);
+  float g =random(140,210);
+  float b =random(140,210);
+  
+  noStroke();
+  colorMode(HSB, 210);
+  fill(r, b, g); 
+  ellipse(x+25,y+25,20,20);
+  y=y+25;
+}
+x=x+25;
+}
