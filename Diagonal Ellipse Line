@@ -1,0 +1,17 @@
+size(500,500);
+background(0);
+
+
+int x=0;
+int y=0;
+
+while (x<470) {
+
+
+noStroke();
+colorMode(HSB);
+fill(255);
+ellipse(x+25,y+25,25,25);
+x=x+30;
+y=y+30;
+}
