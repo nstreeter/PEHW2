@@ -1,0 +1,14 @@
+size(500,500);
+background(0);
+
+int x=0;
+
+while (x<500) {
+  float h =random(-450);
+  
+  noStroke();
+  colorMode(HSB);
+  fill(255);
+  rect(x,500,5,h);
+  x=x+15;
+}
